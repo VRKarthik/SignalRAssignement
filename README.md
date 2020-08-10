@@ -1,6 +1,4 @@
 # SignalRAssignement
-SignalR Assignement for StanleyBlack &amp; Decor
-
 ## Requirements
 Create a .Net Core 3.1 server console app and a simple client (a simple HTML page with Javascript)
 Server and client have to communicate via ASP.NET Core SignalR.
