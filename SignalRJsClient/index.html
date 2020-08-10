@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>File monitor (SignalR client)</title>
+  <meta name="description" content="SignalR Client">
+  <meta name="author" content="VRKarthikeyan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="lib/signalr.js"></script>
+  <script src="js/proxy.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="twelve columns">
+                    <label>Simple File Monitor</label>
+                    <p>SignalR Console Server with Simple Javascript Client</p>
+                    <hr>
+                    <label>File name</label>
+                    <input class="u-full-width" type="text" placeholder="your file name or file content here" id="fileNameOrContent">
+                </div>
+            </div>
+            <div class="row">
+                <div class="three columns">
+                    <input class="u-full-width button-primary" type="button" value="Append" id="append" onclick="appendClick()">
+                </div>
+                <div class="three columns">
+                    <input class="u-full-width button-primary" type="button" value="Create" id="create" onclick="createClick()">
+                </div>
+                <div class="three columns">
+                    <input class="u-full-width button-primary" type="button" value="Delete" id="delete" onclick="deleteClick()">
+                </div>
+                <div class="three columns">
+                    <input class="u-full-width button-primary" type="button" value="Rename" id="rename" onclick="renameClick()">
+                </div>
+            </div>
+            <div class="row">
+                <label>File events</label>
+                <div>
+                    <ul id="eventLogs">
+                        
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

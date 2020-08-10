@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRConsoleHost", "SignalRFileMonitor\SignalRConsoleHost.csproj", "{7AAE93A2-D7F9-47FC-84CD-FF481D1C0B81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileMonitor.DataContracts", "FileMonitor.DataContracts\FileMonitor.DataContracts.csproj", "{E217D23C-1685-4126-B774-7EBFAB84015F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileMonitor.Service", "FileMonitor.Service\FileMonitor.Service.csproj", "{7101C0E2-A916-4FD6-9D09-130842DBA8E7}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SignalRJsClient", "SignalRJsClient\", "{9139E8C0-88A1-4ED0-95EF-EF0C68EA8DE0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49169"
+		Debug.AspNetCompiler.PhysicalPath = "SignalRJsClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49169\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49169"
+		Release.AspNetCompiler.PhysicalPath = "SignalRJsClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49169\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49169"
+		SlnRelativePath = "SignalRJsClient\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AAE93A2-D7F9-47FC-84CD-FF481D1C0B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAE93A2-D7F9-47FC-84CD-FF481D1C0B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAE93A2-D7F9-47FC-84CD-FF481D1C0B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAE93A2-D7F9-47FC-84CD-FF481D1C0B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E217D23C-1685-4126-B774-7EBFAB84015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E217D23C-1685-4126-B774-7EBFAB84015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E217D23C-1685-4126-B774-7EBFAB84015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E217D23C-1685-4126-B774-7EBFAB84015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7101C0E2-A916-4FD6-9D09-130842DBA8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7101C0E2-A916-4FD6-9D09-130842DBA8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7101C0E2-A916-4FD6-9D09-130842DBA8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7101C0E2-A916-4FD6-9D09-130842DBA8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9139E8C0-88A1-4ED0-95EF-EF0C68EA8DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9139E8C0-88A1-4ED0-95EF-EF0C68EA8DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9139E8C0-88A1-4ED0-95EF-EF0C68EA8DE0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9139E8C0-88A1-4ED0-95EF-EF0C68EA8DE0}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB20E127-7332-4E90-8D41-DD14E7186E2D}
+	EndGlobalSection
+EndGlobal
