@@ -23,3 +23,13 @@ SignalR Client (.Net or JavaScript)
     * If user clicks on 2. Button: Create or recreate file with filename (from textbox) in server directory and current DateTime as file content
     * If user clicks on 3. Button: Delete first file in server directory
     * If user clicks on 4. Button: Rename first file in server directory to text from the textbox
+
+## Project structure
+### FileMonitor.DataContracts
+Contains FileEventData class, which will be shared among the server and clients.
+### FileMonitor.Service
+This is a repository or library which will provide all file related methods.
+### SignalRFileMonitor
+This is the .Net Core Console app, which will host the SignalR Hub.
+### SignalRJsClient
+This is a simple website, which will acts as SignalRClient.
