@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using System.Configuration;
 
 namespace SignalRConsoleHost
 {
@@ -20,7 +21,8 @@ namespace SignalRConsoleHost
 							 .SetIsOriginAllowed((host) => true));
 			});
 
-			services.AddSingleton<IFileMonitorService>(fileMonitor => new FileMonitorService(@"C:\Users\rajendra-2\Desktop\ServerDirectory"));
+			var serverDirectoryPath = ConfigurationManager.AppSettings.Get("serverDirectory");
+			services.AddSingleton<IFileMonitorService>(fileMonitor => new FileMonitorService(serverDirectoryPath));
 			services.AddSingleton<FileEventService>();
 
 			services.AddSignalR();
