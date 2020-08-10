@@ -31,3 +31,8 @@ This is a repository or library which will provide all file related methods.
 This is the .Net Core Console app, which will host the SignalR Hub.
 ### SignalRJsClient
 This is a simple website, which will acts as SignalRClient.
+
+### Running the project
+- Server directory path is configured in the App.config file in the SignalRFileMonitor folder, change the directory path if needed.
+- Run the SignalRConsoleHost project.
+- Open the index.html from SignalRJsClient using a web browser.
